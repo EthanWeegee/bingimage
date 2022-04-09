@@ -1,0 +1,20 @@
+[package]
+name = "bingimage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.clap]
+version = "3.1"
+
+[dependencies.reqwest]
+version = "0.11.9"
+features = ["json"]
+
+[dependencies.tokio]
+version = "1"
+features = ["full"]
+
+[dependencies.serde_json]
+version = "1.0"
