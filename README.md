@@ -51,8 +51,6 @@ After=network.target
 Wants=bingimage.timer
 
 [Service]
-User=wwwrun
-Group=www
 Type=oneshot
 ExecStart=/path/to/bingimage -p /path/to/bing/images -r 1920x1080
 
